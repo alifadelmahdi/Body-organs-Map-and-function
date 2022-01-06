@@ -1,0 +1,75 @@
+#box{
+     position: relative;
+}
+#box img{
+     display: block;
+}
+#box .theMap {
+     width: 100%;
+}
+.organs{
+     position: absolute;
+     height: auto;
+}
+.theLiver {
+     top: 25.5%;
+     left: 2%;
+     width: 15%;
+}
+
+.theThyroid{
+     top: 14%;
+     left: 15%;
+     width: 10%;
+}
+ .theThymus{
+      width: 12%;
+      top: 28.5%;
+      left: 18%;
+ }
+ .theStomach{
+      width: 13%;
+      top: 46%;
+      left: 13%;
+ }
+ .thePancreas{
+     width: 13%;
+     top: 55%;
+     left: 1%;
+}
+.theIntestines{
+     width: 14.5%;
+     top: 73.7%;
+     left: 8.3%;
+}
+ 
+.theLungs{
+     width: 16%;
+     top: 16.2%;
+     right: 18.5%;
+}
+.theKidney{
+     width: 14%;
+     top: 36%;
+     right: 20%;
+}
+.theUrinarySystem{
+     width: 16%;
+     top: 37%;
+     right: 2%;
+}
+.theMaleSystem{
+     width: 16%;
+     top: 63%;
+     right: 3%;
+
+}
+.theFemaleSystem{
+     width: 14%;
+     top: 81%;
+     right: 14%;
+}
+
+.hoverZoom:hover{
+     transform: scale(1.25);
+}
